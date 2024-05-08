@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato';
+    background-color: rgba(105,105,105,0.5);
 }
 body-wrapper{
     background-color: grey;
