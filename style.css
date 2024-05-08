@@ -1,3 +1,6 @@
+body{
+    font-family: 'Lato';
+}
 body-wrapper{
     background-color: grey;
 }
@@ -5,9 +8,9 @@ body-wrapper{
 .container{
     width: 300px;
     height: fit-content;
-    margin-top: 10%;
-    margin-left: 25%;
-    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 15px;
     padding: 20px;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -22,6 +25,18 @@ body-wrapper{
 .image-wrapper > img{
     width: 300px;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
+}
+
+.qr-code__text h3{
+    text-align: center;
+
+}
+
+.qr-code__text p{
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+
 }
